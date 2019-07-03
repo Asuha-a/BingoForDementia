@@ -14,7 +14,7 @@ print("Content-type: text/html; charset=utf-8")
 
 #print html
 print(
-    f"""
+    f'''
         <!DOCTYPE html>
         <html lang="en" dir="ltr">
           <head>
@@ -22,13 +22,19 @@ print(
             <title>category</title>
           </head>
           <body>
+            <form class="" action="{mode}.py" method="post">
+              <input type="hidden" name="category" value="toy">
+              <input type="submit" name="" value="Toy">
+            </form>
+            <form class="" action="{mode}.py" method="post">
+              <input type="hidden" name="category" value="movie">
+              <input type="submit" name="" value="Movie">
+            </form>
             <ul>
-              <li><a href="#">Toy</a></li>
-              <li><a href="#">Movie</a></li>
               <li><a href="#">Sanck</a></li>
             </ul>
           </body>
           <p>mode = {mode}</p>
         </html>
-    """
+    '''
 )
