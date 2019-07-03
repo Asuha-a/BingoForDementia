@@ -8,10 +8,15 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 form = cgi.FieldStorage()
 
-mode = form.getvalue("mode")
 category = form.getvalue("category")
 
 print("Content-type: text/html; charset=utf-8")
+
+N = 10
+def createRandom(N):
+    #create random number
+    return random
+random = createRandom(N)
 
 #print html
 print(
@@ -21,8 +26,16 @@ print(
           <head>
             <meta charset="utf-8">
             <title>Player</title>
+            <script type="text/javascript">
+              let random = {random}
+              function onClick(){{
+
+              }}
+            </script>
           </head>
           <body>
+            <a href="#">index</a>
+            <button type="button" name="button" onclick="onClick">Next</button>
             <p>mode = {mode}</p>
             <p>category = {category}</p>
           </body>

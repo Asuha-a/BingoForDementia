@@ -23,13 +23,11 @@ print(
           </head>
           <body>
             <form class="" action="{mode}.py" method="post">
-              <input type="hidden" name="category" value="Toy">
-              <input type="hidden" name="mode" value="{mode}">
+              <input type="hidden" name="category" value="toy">
               <input type="submit" name="" value="Toy">
             </form>
             <form class="" action="{mode}.py" method="post">
-              <input type="hidden" name="category" value="Movie">
-              <input type="hidden" name="mode" value="{mode}">
+              <input type="hidden" name="category" value="movie">
               <input type="submit" name="" value="Movie">
             </form>
             <ul>
