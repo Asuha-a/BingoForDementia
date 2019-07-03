@@ -1,2 +1,2 @@
 # BingoForDementia
-We will solve dementia.
+We will try to solve dementia.
