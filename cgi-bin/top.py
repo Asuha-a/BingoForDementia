@@ -9,6 +9,24 @@ print("Content-type: text/html; charset=utf-8")
 #print html
 print(
     """
-
+        <!DOCTYPE html>
+        <html lang="en" dir="ltr">
+          <head>
+            <meta charset="utf-8">
+            <title>Bingo for Dementia</title>
+            <link rel="stylesheet" type="text/css" href="../top.css">
+          </head>
+          <body>
+            <h1>Bingo For Dementia</h1>
+            <form class="" action="category.py" method="post">
+              <input type="hidden" name="mode" value="Player">
+              <input type="submit" name="" value="Player">
+            </form>
+            <form class="" action="category.py" method="post">
+              <input type="hidden" name="mode" value="Manager">
+              <input type="submit" name="" value="Manager">
+            </form>
+          </body>
+        </html>
     """
 )
