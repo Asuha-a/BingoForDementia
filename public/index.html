@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Bingo for Dementia</title>
+    <title>Bingo</title>
     <meta name="viewpoint" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
-    <link rel="stylesheet"type="text/css"  href="./top.css">
+    <link rel="stylesheet"type="text/css"  href="./css/top.css">
 
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/6.2.4/firebase-app.js"></script>
@@ -19,13 +19,16 @@
   </head>
   <body>
     <div class="LOGO">
-      <img src="./images/UI/logo.png" width="300" height="680" alt="BINGO">
+      <img src="./images/UI/logo.png" alt="BINGO" id="bingo">
     </div>
-    <div class="PLAYER">
-      <a href="category.py"><img src="./images/UI/playerbutton.png" width="240" height="240" alt="player"></a>
-    </div>
-    <div class="MANAGER">
-      <a href="category.py"><img src="./images/UI/managerbutton.png" width="240" height="240" alt="manager"></a>
-    </div>
+
+      <form class="Player" action="category.py" method="post">
+        <input type="hidden" name="mode" value="player">
+        <input type="submit" name="submitplayer" value="Player" id="player">
+      </form>
+      <form class="Manager" action="category.py" method="post">
+        <input type="hidden" name="mode" value="manager">
+        <input type="submit" name="submitmanager" value="Manager" id="manager">
+      </form>
   </body>
 </html>
