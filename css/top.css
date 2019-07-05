@@ -1,0 +1,72 @@
+@media screen and (min-width: 1001px){
+  body{
+    background-image: url("background.png");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+  }
+  div.PLAYER{
+    position: absolute;
+    max-width: 240px;
+    max-height: auto;
+    top: 250px;
+    left: 210px;
+  }
+  div.MANAGER{
+    position: absolute;
+    max-width: 240px;
+    max-height: auto;
+    top: 250px;
+    right: 210px;
+  }
+  div.LOGO{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 900px){
+  body{
+    background-image: url("background.png");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+  }
+  div.PLAYER{
+    position: absolute;
+    max-width: 240px;
+    height: auto;
+    top: 250px;
+    left: 210px;
+  }
+  div.MANAGER{
+    position: absolute;
+    max-width: 240px;
+    height: auto;
+    top: 250px;
+    right: 210px;
+  }
+  div.LOGO{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 450px){
+  body{
+    background-image: url("background.png");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+  }
+  div.PLAYER{
+    position: absolute;
+    max-width: 240px;
+    height: auto;
+    top: 250px;
+    left: 210px;
+  }
+  div.MANAGER{
+    position: absolute;
+    max-width: 240px;
+    height: auto;
+    top: 250px;
+    right: 210px;
+  }
+  div.LOGO{
+    text-align: center;
+  }
+}
