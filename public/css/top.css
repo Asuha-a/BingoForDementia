@@ -13,7 +13,10 @@
   input#player{
     width: 240px;
     height: 240px;
-    background: url("../images/UI/playerbutton.png") no-repeat;
+    background: url("../images/UI/playerbutton.png");
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    border:0px solid;
   }
   form.MANAGER{
     position: absolute;
@@ -25,6 +28,8 @@
     width: 240px;
     height: 240px;
     background: url("../images/UI/managerbutton.png") no-repeat;
+    background-size:100% auto;
+    border:0px solid;
   }
   div.LOGO{
     text-align: center;
@@ -50,6 +55,8 @@
     width: 210px;
     height: 210px;
     background: url("../images/UI/managerbutton.png") no-repeat;
+    background-size:100% auto;
+    border:0px solid;
   }
   form.MANAGER{
     position: absolute;
@@ -60,6 +67,8 @@
     width: 210px;
     height: 210px;
     background: url("../images/UI/managerbutton.png") no-repeat;
+    background-size:100% auto;
+    border:0px solid;
   }
   div.LOGO{
     text-align: center;
@@ -94,6 +103,8 @@
     width: 150px;
     height: 150px;
     background: url("../images/UI/managerbutton.png") no-repeat;
+    background-size:100% auto;
+    border:0px solid;
   }
   div.LOGO{
     text-align: center;
@@ -119,6 +130,8 @@
     width: 110px;
     height: 110px;
     background: url("../images/UI/playerbutton.png") no-repeat;
+    background-size:100% auto;
+    border:0px solid;
   }
   form.MANAGER{
     position: absolute;
@@ -129,6 +142,8 @@
     width: 110px;
     height: 110px;
     background: url("../images/UI/managerbutton.png") no-repeat;
+    background-size:100% auto;
+    border:0px solid;
   }
   div.LOGO{
     text-align: center;
@@ -154,6 +169,8 @@
     width: 85px;
     height: 85px;
     background: url("../images/UI/playerbutton.png") no-repeat;
+    background-size:100% auto;
+    border:0px solid;
   }
   form.MANAGER{
     position: absolute;
@@ -164,6 +181,8 @@
     width: 85px;
     height: 85px;
     background: url("../images/UI/managerbutton.png") no-repeat;
+    background-size:100% auto;
+    border:0px solid;
   }
   div.LOGO{
     text-align: center;
@@ -172,6 +191,7 @@
     width: 120px;
     height: 220px;
   }
+}
   @media screen and (max-width: 360px){
     body{
       background-image: url("../images/UI/background.png");
@@ -187,6 +207,8 @@
       width: 69px;
       height: 69px;
       background: url("../images/UI/managerbutton.png") no-repeat;
+      background-size:100% auto;
+      border:0px solid;
     }
     form.MANAGER{
       position: absolute;
@@ -197,6 +219,8 @@
       width: 69px;
       height: 69px;
       background: url("../images/UI/managerbutton.png") no-repeat;
+      background-size:100% auto;
+      border:0px solid;
     }
     div.LOGO{
       text-align: center;
