@@ -1,6 +1,6 @@
 @media screen and (min-width: 1001px){
   body{
-    background-image: url("background.png");
+    background-image: url("../images/UI/background.png");
     background-size:100% 100%;
     background-repeat: no-repeat;
   }
@@ -24,7 +24,7 @@
 }
 @media screen and (max-width: 900px){
   body{
-    background-image: url("background.png");
+    background-image: url("../images/UI/background.png");
     background-size:100% 100%;
     background-repeat: no-repeat;
   }
@@ -48,7 +48,7 @@
 }
 @media screen and (max-width: 450px){
   body{
-    background-image: url("background.png");
+    background-image: url("../images/UI/background.png");
     background-size:100% 100%;
     background-repeat: no-repeat;
   }
