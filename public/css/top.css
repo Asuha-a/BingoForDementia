@@ -206,7 +206,7 @@
     input#player{
       width: 69px;
       height: 69px;
-      background: url("../images/UI/managerbutton.png") no-repeat;
+      background: url("../images/UI/playerbutton.png") no-repeat;
       background-size:100% auto;
       border:0px solid;
     }
