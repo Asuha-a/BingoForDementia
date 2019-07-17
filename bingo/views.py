@@ -22,3 +22,9 @@ def manager(request, category):
         'category': category
     }
     return render(request, 'bingo/manager.html', params)
+
+def index(request, category):
+    params = {
+        'category': category,
+    }
+    return render(request, 'bingo/index.html', params)
