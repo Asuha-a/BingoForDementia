@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>category</title>
+  </head>
+  <body>
+    <!--
+    <form class="" action="{mode}.py" method="post">
+      <input type="hidden" name="category" value="toy">
+      <input type="submit" name="" value="Toy">
+    </form>
+    <form class="" action="{mode}.py" method="post">
+      <input type="hidden" name="category" value="movie">
+      <input type="submit" name="" value="Movie">
+    </form>
+  -->
+    <ul>
+      <button type="button" name="button" onclick="location.href='./Toy/{{mode}}'" src="">Toy</button>
+      <button type="button" name="button" onclick="location.href='./Movie/player'" src="">Movie</button>
+      <button type="button" name="button" onclick="location.href='./Snacks/player'" src="">Snacks</button>
+      <button type="button" name="button" onclick="location.href='./History/player'" src="">History</button>
+      <button type="button" name="button" onclick="location.href='./Singers/player'" src="">Singers</button>
+      <button type="button" name="button" onclick="location.href='./Stars/player'" src="">Stars</button>
+    </ul>
+  </body>
+</html>
