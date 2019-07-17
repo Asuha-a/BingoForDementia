@@ -3,10 +3,10 @@ const N = 11;
 var flag = false;
 function createRandom(N) {
     var imagesArray = [];
-    
+
     var i = 0;
     while (i < N) {
-        imagesArray.push("pic" + i + ".png");
+        imagesArray.push("img" + i + ".jpg");
         i++;
     }
     var currentIndex = imagesArray.length;
@@ -27,7 +27,7 @@ function onClick() {
     if (!flag) {
         a = createRandom(N);
         flag = true
-    } 
+    }
     console.log(a[num])
     document.getElementById(`img${num}`).src = a[num]
     a.shift()
