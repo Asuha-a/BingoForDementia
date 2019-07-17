@@ -1,0 +1,171 @@
+﻿body {
+    position: relative;
+    background-image:url("board.png");
+    background-size:auto;
+    background-repeat:no-repeat;
+}
+
+.dd,
+.ee,
+.ff,
+.gg,
+.hh,
+.ii,
+.jj,
+.kk,
+.ll,
+.mm {
+    padding: 10px;
+    border: 1px solid gray;
+    width: 580px;
+}
+
+
+.dd {
+    position: absolute;
+    top: 400px;
+    left: 90px;
+    float: left;
+    overflow: auto;
+    height: 1520px;
+    background-color: rgba(255,255,255,0);
+    margin-right: 250px;
+}
+
+.ee,
+.ff,
+.gg,
+.hh,
+.ii,
+.jj,
+.kk,
+.ll,
+.mm {
+    margin-bottom: 5px;
+    height: 580px;
+    background-color: rgba(255,255,255,0);
+}
+
+
+
+.ee {
+    position: absolute;
+    top: 95px;
+    left: 730px;
+}
+
+.ff {
+    position: absolute;
+    top: 95px;
+    left: 1360px;
+}
+
+.gg {
+    position: absolute;
+    top: 95px;
+    left: 2000px;
+}
+
+.hh {
+    position: absolute;
+    top: 715px;
+    left: 730px;
+}
+
+.ii {
+    position: absolute;
+    top: 715px;
+    left: 1360px;
+}
+
+.jj {
+    position: absolute;
+    top: 715px;
+    left: 2000px;
+}
+
+.kk {
+    position: absolute;
+    top: 1350px;
+    left: 730px;
+}
+
+.ll {
+    position: absolute;
+    top: 1350px;
+    left: 1360px;
+}
+
+.mm {
+    position: absolute;
+    top: 1350px;
+    left: 2000px;
+}
+
+
+.btn {
+    position: absolute;
+    top: 95px;
+    left: 100px;
+    height:320px;
+}
+
+
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6,
+#img7,
+#img8,
+#img9,
+#img10 {
+    width: 580px;
+    height: 580px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.line_n {
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    height: 650px;
+}
+
+.zero_r {
+    position: absolute;
+    top: 650px;
+    left: 60px;
+    height: 650px;
+}
+
+.one_n {
+    position: absolute;
+    top: 650px;
+    left: 60px;
+    height: 650px;
+}
+
+.two_o {
+    position: absolute;
+    top: 650px;
+    left: 60px;
+    height: 650px;
+}
+
+.three_e {
+    position: absolute;
+    top: 650px;
+    left: 60px;
+    height: 650px;
+}
+
+.win_n {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 2000px;
+}
