@@ -11,13 +11,15 @@
     <div class="LOGO">
       <img src="../../static/images/UI/logo.png" alt="BINGO" id="bingo">
     </div>
-      <form class="PLAYER" action="./cgi-bin/category.py" method="post">
-        <input type="hidden" name="mode" value="player">
+    <button type="button" name="button" onclick="location.href='./category/player'" src="">player</button>
+    <button type="button" name="button" onclick="location.href='./category/manager'" src="">manager</button>
+    <!--
+      <form class="PLAYER" action="./category/player" method="post">
         <input type="submit" name="submitplayer" value="" id="player">
       </form>
-      <form class="MANAGER" action="./cgi-bin/category.py" method="post">
-        <input type="hidden" name="mode" value="manager">
+      <form class="MANAGER" action="./category/manager" method="post">
         <input type="submit" name="submitmanager" value="" id="manager">
       </form>
+    -->
   </body>
 </html>
