@@ -6,8 +6,12 @@
     <meta charset="utf-8">
     <title>Bingo</title>
     <link rel="stylesheet" href="{% static 'css/manager.css' %}">
+    <script type="text/javascript" src="manage.js"></script>
   </head>
   <body>
     {{category}}
+    <button type="button" name="button" onclick="location.href='./index'" src="">Index</button>
+    <img onclick="onClick()" src="next.png" class="next">
+    <img class="screen_n" src="blank.png" id = "img0">
   </body>
 </html>
