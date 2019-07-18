@@ -1,0 +1,457 @@
+@media screen and (min-width: 1151px){
+    body{
+      background-image: url("../images/UI/ca_background.png");
+      background-size:100% 118%;
+      background-repeat: no-repeat;
+    }
+    .line1{
+      position:fixed;
+      top:130px;
+      left:20%;
+      z-index:10;
+    }
+
+    .line2{
+      position:fixed;
+      top:310px;
+      left:20%;
+      z-index:10;
+    }
+    
+
+    .toys{
+      width: 240px;
+      height: 240px;
+      background: url("../images/UI/toys.png");
+      background-repeat: no-repeat;
+      background-size:100% auto;
+      border:0px solid;
+    }
+
+    .movies{
+        width: 240px;
+        height: 240px;
+        background: url("../images/UI/movies.png");
+        background-repeat: no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+      }
+
+    .snacks{
+        width: 240px;
+        height: 240px;
+        background: url("../images/UI/snacks.png");
+        background-repeat: no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+      }
+
+    .histories{
+      width: 240px;
+      height: 240px;
+      background: url("../images/UI/histories.png");
+      background-repeat: no-repeat;
+      background-size:100% auto;
+      border:0px solid;
+    }
+
+    .singers{
+        width: 240px;
+        height: 240px;
+        background: url("../images/UI/singers.png");
+        background-repeat: no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+      }
+  
+    .stars{
+          width: 240px;
+          height: 240px;
+          background: url("../images/UI/stars.png");
+          background-repeat: no-repeat;
+          background-size:100% auto;
+          border:0px solid;
+        }
+
+    .LOGO{
+            text-align: center;
+          }
+          img#bingo{
+            width: 260px;
+            height: 570px;
+     }
+    
+  }
+  /*大きめパソコン用*/
+  @media screen and (max-width: 1150px){
+    body{
+      background-image: url("../images/UI/ca_background.png");
+      background-size:100% 105%;
+      background-repeat: no-repeat;
+    }
+    .line1{
+      position:fixed;
+      top:110px;
+      left:18%;
+      z-index:10%;
+    }
+    .line2{
+      position:fixed;
+      top:250px;
+      left:18%;
+      z-index:10;
+    }
+    .toys{
+      width: 210px;
+      height: 210px;
+      background: url("../images/UI/toys.png") no-repeat;
+      background-size:100% auto;
+      border:0px solid;
+    }
+    
+    .movies{
+        width: 210px;
+        height: 210px;
+        background: url("../images/UI/movies.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+      }
+    
+    .snacks{
+        width: 210px;
+        height: 210px;
+        background: url("../images/UI/snacks.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+      }
+      
+    .histories{
+        width: 210px;
+        height: 210px;
+        background: url("../images/UI/histories.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+      }
+
+    .singers{
+          width: 210px;
+          height: 210px;
+          background: url("../images/UI/singers.png") no-repeat;
+          background-size:100% auto;
+          border:0px solid;
+        }
+    
+    .stars{
+            width: 210px;
+            height: 210px;
+            background: url("../images/UI/stars.png") no-repeat;
+            background-size:100% auto;
+            border:0px solid;
+        }
+
+    div.LOGO{
+            text-align: center;
+          }
+          img#bingo{
+            width: 240px;
+            height: 540px;
+     }
+          
+  }
+  /*大きめタブレット+小さめパソコン用*/
+  @media screen and (max-width: 950px){
+    body{
+      background-image: url("../images/UI/ca_background.png");
+      background-size:100% 110%;
+      background-repeat: no-repeat;
+    }
+    
+    .line1{
+      position:fixed;
+      top:100px;
+      left:20%;
+      z-index:10; 
+    }
+
+    .line2{
+      position:fixed;
+      top:190px;
+      left:20%;
+      z-index:10;
+    }
+
+    .toys{
+      width: 150px;
+      height: 150px;
+      background: url("../images/UI/toys.png") no-repeat;
+      background-size:100% auto;
+      border:0px solid;
+    }
+
+    .movies{
+        width: 150px;
+        height: 150px;
+        background: url("../images/UI/movies.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+    }
+
+    .histories{
+        width: 150px;
+        height: 150px;
+        background: url("../images/UI/histories.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+    }
+  
+    .snacks{
+          width: 150px;
+          height: 150px;
+          background: url("../images/UI/snacks.png") no-repeat;
+          background-size:100% auto;
+          border:0px solid;
+    }
+
+    .singers{
+        width: 150px;
+        height: 150px;
+        background: url("../images/UI/singers.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+    }
+  
+    .stars{
+          width: 150px;
+          height: 150px;
+          background: url("../images/UI/stars.png") no-repeat;
+          background-size:100% auto;
+          border:0px solid;
+    }
+
+    div.LOGO{
+        text-align: center;
+      }
+      img#bingo{
+        width: 190px;
+        height: 390px;
+      }
+    
+  }
+  /* 大きめのスマホ＋小さめタブレット用*/
+  @media screen and (max-width: 730px){
+    body{
+      background-image: url("../images/UI/ca_background.png");
+      background-size:100% 110%;
+      background-repeat: no-repeat;
+    }
+    
+    .line1{
+      position:fixed;
+      z-index:10;
+      left:20%;
+      top:80px;
+    }
+    .line2{
+      position:fixed;
+      z-index:10px;
+      left:20%;
+      top:170px;
+    }
+    .toys{
+      width: 110px;
+      height: 110px;
+      background: url("../images/UI/toys.png") no-repeat;
+      background-size:100% auto;
+      border:0px solid;
+    }
+    
+    .movies{
+      width: 110px;
+      height: 110px;
+      background: url("../images/UI/movies.png") no-repeat;
+      background-size:100% auto;
+      border:0px solid;
+    }
+
+    .histories{
+        width: 110px;
+        height: 110px;
+        background: url("../images/UI/histories.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+    }
+      
+    .snacks{
+        width: 110px;
+        height: 110px;
+        background: url("../images/UI/snacks.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+    }
+
+    .singers{
+        width: 110px;
+        height: 110px;
+        background: url("../images/UI/singers.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+    }
+      
+    .stars{
+        width: 110px;
+        height: 110px;
+        background: url("../images/UI/stars.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+    }
+
+    div.LOGO{
+        text-align: center;
+      }
+      img#bingo{
+        width: 160px;
+        height: 320px;
+      }
+    
+  }
+  /* 小さいスマホ用*/
+  @media screen and (max-width: 570px){
+    body{
+      background-image: url("../images/UI/ca_background.png");
+      background-size:100% 108%;
+      background-repeat: no-repeat;
+    }
+    .line1{
+      position:fixed;
+      z-index:10;
+      left:50%;
+    }
+
+    .line2{
+      position:fixed;
+      z-index:10;
+      left:50%;
+    }
+
+    .toys{
+      width: 85px;
+      height: 85px;
+      background: url("../images/UI/toys.png") no-repeat;
+      background-size:100% auto;
+      border:0px solid;
+    }
+    
+    .movies{
+      width: 85px;
+      height: 85px;
+      background: url("../images/UI/movies.png") no-repeat;
+      background-size:100% auto;
+      border:0px solid;
+    }
+
+    .histories{
+        width: 85px;
+        height: 85px;
+        background: url("../images/UI/histories.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+    }
+      
+    .snacks{
+        width: 85px;
+        height: 85px;
+        background: url("../images/UI/snacks.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+    }
+
+    .singers{
+        width: 85px;
+        height: 85px;
+        background: url("../images/UI/singers.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+    }
+      
+    .stars{
+        width: 85px;
+        height: 85px;
+        background: url("../images/UI/stars.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+    }
+
+    div.LOGO{
+        text-align: center;
+      }
+      img#bingo{
+        width: 120px;
+        height: 220px;
+      }
+    
+  }
+    @media screen and (max-width: 360px){
+      body{
+        background-image: url("../images/UI/ca_background.png");
+        background-size:100% 108%;
+        background-repeat: no-repeat;
+      }
+      
+      .toys{
+        width: 69px;
+        height: 69px;
+        background: url("../images/UI/toys.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+      }
+      
+      .movies{
+        width: 69px;
+        height: 69px;
+        background: url("../images/UI/movies.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+      }
+
+      .histories{
+        width: 69px;
+        height: 69px;
+        background: url("../images/UI/histories.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+      }
+      
+      .snacks{
+        width: 69px;
+        height: 69px;
+        background: url("../images/UI/snacks.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+      }
+
+      .singer{
+        width: 69px;
+        height: 69px;
+        background: url("../images/UI/singers.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+      }
+      
+      .stars{
+        width: 69px;
+        height: 69px;
+        background: url("../images/UI/stars.png") no-repeat;
+        background-size:100% auto;
+        border:0px solid;
+      }
+
+      div.LOGO{
+        text-align: center;
+      }
+      img#bingo{
+        width: 106px;
+        height: 190px;
+      }
+      
+  }
+  

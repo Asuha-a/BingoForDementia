@@ -4,13 +4,13 @@
     background-size:100% 118%;
     background-repeat: no-repeat;
   }
-  form.PLAYER{
+  .player{
     position: absolute;
     top: 250px;
     left: 210px;
 
   }
-  input#player{
+  .player{
     width: 240px;
     height: 240px;
     background: url("../images/UI/playerbutton.png");
@@ -18,13 +18,13 @@
     background-size:100% auto;
     border:0px solid;
   }
-  form.MANAGER{
+  .manager{
     position: absolute;
     top: 250px;
     right: 210px;
 
   }
-  input#manager{
+  .manager{
     width: 240px;
     height: 240px;
     background: url("../images/UI/managerbutton.png") no-repeat;
@@ -46,24 +46,24 @@
     background-size:100% 105%;
     background-repeat: no-repeat;
   }
-  form.PLAYER{
+  .player{
     position: absolute;
     top: 210px;
     left: 160px;
   }
-  input#player{
+  .player{
     width: 210px;
     height: 210px;
     background: url("../images/UI/managerbutton.png") no-repeat;
     background-size:100% auto;
     border:0px solid;
   }
-  form.MANAGER{
+  .manager{
     position: absolute;
     top: 210px;
     right: 160px;
   }
-  input#manager{
+  .manager{
     width: 210px;
     height: 210px;
     background: url("../images/UI/managerbutton.png") no-repeat;
@@ -85,21 +85,21 @@
     background-size:100% 110%;
     background-repeat: no-repeat;
   }
-  form.PLAYER{
+  .player{
     position: absolute;
     top: 140px;
     left: 132px;
   }
-  input#player{
+  .player{
     width: 150px;
     height: 150px;
   }
-  form.MANAGER{
+  .manager{
     position: absolute;
     top: 140px;
     right: 132px;
   }
-  input#manager{
+  .manager{
     width: 150px;
     height: 150px;
     background: url("../images/UI/managerbutton.png") no-repeat;
@@ -121,24 +121,24 @@
     background-size:100% 110%;
     background-repeat: no-repeat;
   }
-  form.PLAYER{
+  .player{
     position: absolute;
     top: 130px;
     left: 110px;
   }
-  input#player{
+  .player{
     width: 110px;
     height: 110px;
     background: url("../images/UI/playerbutton.png") no-repeat;
     background-size:100% auto;
     border:0px solid;
   }
-  form.MANAGER{
+  .manager{
     position: absolute;
     top: 130px;
     right: 110px;
   }
-  input#manager{
+  .manager{
     width: 110px;
     height: 110px;
     background: url("../images/UI/managerbutton.png") no-repeat;
@@ -160,24 +160,24 @@
     background-size:100% 108%;
     background-repeat: no-repeat;
   }
-  form.PLAYER{
+  .player{
     position: absolute;
     top: 81px;
     left: 86px;
   }
-  input#player{
+  .player{
     width: 85px;
     height: 85px;
     background: url("../images/UI/playerbutton.png") no-repeat;
     background-size:100% auto;
     border:0px solid;
   }
-  form.MANAGER{
+  .manager{
     position: absolute;
     top: 81px;
     right: 86px;
   }
-  input#manager{
+  .manager{
     width: 85px;
     height: 85px;
     background: url("../images/UI/managerbutton.png") no-repeat;
@@ -198,24 +198,24 @@
       background-size:100% 108%;
       background-repeat: no-repeat;
     }
-    form.PLAYER{
+    .player{
       position: absolute;
       top: 72px;
       left: 86px;
     }
-    input#player{
+    .player{
       width: 69px;
       height: 69px;
       background: url("../images/UI/playerbutton.png") no-repeat;
       background-size:100% auto;
       border:0px solid;
     }
-    form.MANAGER{
+    .manager{
       position: absolute;
       top: 72px;
       right: 86px;
     }
-    input#manager{
+    .manager{
       width: 69px;
       height: 69px;
       background: url("../images/UI/managerbutton.png") no-repeat;
