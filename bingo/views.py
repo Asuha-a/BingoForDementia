@@ -1,5 +1,14 @@
 from django.shortcuts import render
 
+pictures_num = {
+    'history': 18,
+    'singer': 19,
+    'snack': 15,
+    'star': 15,
+    'toy': 13,
+    'movie': 15,
+}
+
 # Create your views here.
 def top(request):
     return render(request, 'bingo/top.html')
