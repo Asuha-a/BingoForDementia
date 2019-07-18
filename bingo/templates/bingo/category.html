@@ -5,25 +5,25 @@
   <head>
     <meta charset="utf-8">
     <title>category</title>
+    <link rel="stylesheet" href="{% static 'css/category.css' %}">
   </head>
   <body>
-    <!--
-    <form class="" action="{mode}.py" method="post">
-      <input type="hidden" name="category" value="toy">
-      <input type="submit" name="" value="Toy">
-    </form>
-    <form class="" action="{mode}.py" method="post">
-      <input type="hidden" name="category" value="movie">
-      <input type="submit" name="" value="Movie">
-    </form>
-  -->
-    <ul>
-      <button type="button" name="button" onclick="location.href='../{{mode}}/Toy'" src="">Toy</button>
-      <button type="button" name="button" onclick="location.href='../{{mode}}/Movie'" src="">Movie</button>
-      <button type="button" name="button" onclick="location.href='../{{mode}}/Snacks'" src="">Snacks</button>
-      <button type="button" name="button" onclick="location.href='../{{mode}}/History'" src="">History</button>
-      <button type="button" name="button" onclick="location.href='../{{mode}}/Singers'" src="">Singers</button>
-      <button type="button" name="button" onclick="location.href='../{{mode}}/Stars'" src="">Stars</button>
-    </ul>
+    <div class="LOGO">
+        <img src="../../static/images/UI/pole.png" alt="BINGO" id="bingo">
+    </div>
+    <div class = "line1">
+      <ul>
+        <button class = "toys" type="button" name="button" onclick="location.href='./Toy/{{mode}}/toy'" src=""></button>
+        <button class = "movies"type="button" name="button" onclick="location.href='./Movie/{{mode}}/movie'" src=""></button>
+        <button class = "snacks" type="button" name="button" onclick="location.href='./Snacks/{{mode}}/snack'" src=""></button>
+      </ul>
+    </div>
+    <div class = "line2">
+      <ul>
+        <button class = "histories" type="button" name="button" onclick="location.href='./History/{{mode}}/history'" src=""></button>
+        <button class = "singers" type="button" name="button" onclick="location.href='./Singers/{{mode}}/singer'" src=""></button>
+        <button class = "stars" type="button" name="button" onclick="location.href='./Stars/{{mode}}/star'" src=""></button>
+      </ul>
+    </div>
   </body>
 </html>

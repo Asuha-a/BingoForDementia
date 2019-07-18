@@ -21,14 +21,32 @@ def category(request, mode):
     lookup_field = 'pk'
 
 def player(request, category):
+    pictures_num = {
+        'history': 18,
+        'singer': 19,
+        'snack': 15,
+        'star': 15,
+        'toy': 13,
+        'movie': 15,
+    }
     params = {
-        'category': category
+        'category': category,
+        'category_pictures': pictures_num[category],
     }
     return render(request, 'bingo/player.html', params)
 
 def manager(request, category):
+    pictures_num = {
+        'history': 18,
+        'singer': 19,
+        'snack': 15,
+        'star': 15,
+        'toy': 13,
+        'movie': 15,
+    }
     params = {
-        'category': category
+        'category': category,
+        'category_pictures': pictures_num[category],
     }
     return render(request, 'bingo/manager.html', params)
 
