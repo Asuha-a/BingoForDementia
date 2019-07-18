@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>category</title>
+    <link rel="stylesheet" href="{% static 'css/category.css' %}">
+  </head>
+  <body>
+    <div class="LOGO">
+        <img src="../../static/images/UI/pole.png" alt="BINGO" id="bingo">
+    </div>
+    <div class = "line1">
+      <ul>
+        <button class = "toys" type="button" name="button" onclick="location.href='../{{mode}}/toy'" src=""></button>
+        <button class = "movies"type="button" name="button" onclick="location.href='../{{mode}}/movie'" src=""></button>
+        <button class = "snacks" type="button" name="button" onclick="location.href='../{{mode}}/snack'" src=""></button>
+      </ul>
+    </div>
+    <div class = "line2">
+      <ul>
+        <button class = "histories" type="button" name="button" onclick="location.href='../{{mode}}/history'" src=""></button>
+        <button class = "singers" type="button" name="button" onclick="location.href='../{{mode}}/singer'" src=""></button>
+        <button class = "stars" type="button" name="button" onclick="location.href='../{{mode}}/star'" src=""></button>
+      </ul>
+    </div>
+  </body>
+</html>

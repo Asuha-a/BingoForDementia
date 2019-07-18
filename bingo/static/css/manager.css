@@ -1,0 +1,30 @@
+﻿body {
+    position: relative;
+    background-image:url("../images/UI/manager_background.png");
+    height:1536px;
+    width:2048px;
+    background-repeat: no-repeat;
+}
+
+.next{
+    position:absolute;
+    top:1400px;
+    left:500px;
+}
+
+.index {
+    position: absolute;
+    top: 1400px;
+    left: 1500px;
+    width:740px;
+    height:740px;
+    background:url("../images/UI/index.png") no-repeat;
+    background-size:100% auto;
+}
+
+.screen{
+    position:absolute;
+    top:230px;
+    left:680px;
+    height:1350px;
+}

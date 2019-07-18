@@ -1,0 +1,232 @@
+@media screen and (min-width: 1151px){
+  body{
+    background-image: url("../images/UI/background.png");
+    background-size:100% 118%;
+    background-repeat: no-repeat;
+  }
+  .player{
+    position: absolute;
+    top: 250px;
+    left: 210px;
+
+  }
+  .player{
+    width: 240px;
+    height: 240px;
+    background: url("../images/UI/playerbutton.png");
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    border:0px solid;
+  }
+  .manager{
+    position: absolute;
+    top: 250px;
+    right: 210px;
+
+  }
+  .manager{
+    width: 240px;
+    height: 240px;
+    background: url("../images/UI/managerbutton.png") no-repeat;
+    background-size:100% auto;
+    border:0px solid;
+  }
+  div.LOGO{
+    text-align: center;
+  }
+  img#bingo{
+    width: 260px;
+    height: 570px;
+  }
+}
+/*大きめパソコン用*/
+@media screen and (max-width: 1150px){
+  body{
+    background-image: url("../images/UI/background.png");
+    background-size:100% 105%;
+    background-repeat: no-repeat;
+  }
+  .player{
+    position: absolute;
+    top: 210px;
+    left: 160px;
+  }
+  .player{
+    width: 210px;
+    height: 210px;
+    background: url("../images/UI/managerbutton.png") no-repeat;
+    background-size:100% auto;
+    border:0px solid;
+  }
+  .manager{
+    position: absolute;
+    top: 210px;
+    right: 160px;
+  }
+  .manager{
+    width: 210px;
+    height: 210px;
+    background: url("../images/UI/managerbutton.png") no-repeat;
+    background-size:100% auto;
+    border:0px solid;
+  }
+  div.LOGO{
+    text-align: center;
+  }
+  img#bingo{
+    width: 240px;
+    height: 540px;
+  }
+}
+/*大きめタブレット+小さめパソコン用*/
+@media screen and (max-width: 950px){
+  body{
+    background-image: url("../images/UI/background.png");
+    background-size:100% 110%;
+    background-repeat: no-repeat;
+  }
+  .player{
+    position: absolute;
+    top: 140px;
+    left: 132px;
+  }
+  .player{
+    width: 150px;
+    height: 150px;
+  }
+  .manager{
+    position: absolute;
+    top: 140px;
+    right: 132px;
+  }
+  .manager{
+    width: 150px;
+    height: 150px;
+    background: url("../images/UI/managerbutton.png") no-repeat;
+    background-size:100% auto;
+    border:0px solid;
+  }
+  div.LOGO{
+    text-align: center;
+  }
+  img#bingo{
+    width: 190px;
+    height: 390px;
+  }
+}
+/* 大きめのスマホ＋小さめタブレット用*/
+@media screen and (max-width: 730px){
+  body{
+    background-image: url("../images/UI/background.png");
+    background-size:100% 110%;
+    background-repeat: no-repeat;
+  }
+  .player{
+    position: absolute;
+    top: 130px;
+    left: 110px;
+  }
+  .player{
+    width: 110px;
+    height: 110px;
+    background: url("../images/UI/playerbutton.png") no-repeat;
+    background-size:100% auto;
+    border:0px solid;
+  }
+  .manager{
+    position: absolute;
+    top: 130px;
+    right: 110px;
+  }
+  .manager{
+    width: 110px;
+    height: 110px;
+    background: url("../images/UI/managerbutton.png") no-repeat;
+    background-size:100% auto;
+    border:0px solid;
+  }
+  div.LOGO{
+    text-align: center;
+  }
+  img#bingo{
+    width: 160px;
+    height: 320px;
+  }
+}
+/* 小さいスマホ用*/
+@media screen and (max-width: 570px){
+  body{
+    background-image: url("../images/UI/background.png");
+    background-size:100% 108%;
+    background-repeat: no-repeat;
+  }
+  .player{
+    position: absolute;
+    top: 81px;
+    left: 86px;
+  }
+  .player{
+    width: 85px;
+    height: 85px;
+    background: url("../images/UI/playerbutton.png") no-repeat;
+    background-size:100% auto;
+    border:0px solid;
+  }
+  .manager{
+    position: absolute;
+    top: 81px;
+    right: 86px;
+  }
+  .manager{
+    width: 85px;
+    height: 85px;
+    background: url("../images/UI/managerbutton.png") no-repeat;
+    background-size:100% auto;
+    border:0px solid;
+  }
+  div.LOGO{
+    text-align: center;
+  }
+  img#bingo{
+    width: 120px;
+    height: 220px;
+  }
+}
+  @media screen and (max-width: 360px){
+    body{
+      background-image: url("../images/UI/background.png");
+      background-size:100% 108%;
+      background-repeat: no-repeat;
+    }
+    .player{
+      position: absolute;
+      top: 72px;
+      left: 86px;
+    }
+    .player{
+      width: 69px;
+      height: 69px;
+      background: url("../images/UI/playerbutton.png") no-repeat;
+      background-size:100% auto;
+      border:0px solid;
+    }
+    .manager{
+      position: absolute;
+      top: 72px;
+      right: 86px;
+    }
+    .manager{
+      width: 69px;
+      height: 69px;
+      background: url("../images/UI/managerbutton.png") no-repeat;
+      background-size:100% auto;
+      border:0px solid;
+    }
+    div.LOGO{
+      text-align: center;
+    }
+    img#bingo{
+      width: 106px;
+      height: 190px;
+    }
+}

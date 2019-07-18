@@ -1,0 +1,46 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'css/player.css' %}">
+
+</head>
+<body>
+
+    <div class="dd" id="dragarea">
+        <img src="pic1.png" id="img1" alt="" onclick="imgClick('img1')">
+        <img src="pic2.png" id="img2" alt="" onclick="imgClick('img2')">
+        <img src="pic3.png" id="img3" alt="" onclick="imgClick('img3')">
+        <img src="pic4.png" id="img4" alt="" onclick="imgClick('img4')">
+        <img src="pic5.png" id="img5" alt="" onclick="imgClick('img5')">
+        <img src="pic6.png" id="img6" alt="" onclick="imgClick('img6')">
+        <img src="pic7.png" id="img7" alt="" onclick="imgClick('img7')">
+        <img src="pic8.png" id="img8" alt="" onclick="imgClick('img8')">
+        <img src="pic9.png" id="img9" alt="" onclick="imgClick('img9')">
+        <img src="pic10.png" id="img10" alt="" onclick="imgClick('img10')">
+        <img src="pic11.png" id="img11" alt="" onclick="imgClick('img11')">
+    </div>
+    <div class="ee" id="droparea"></div>
+    <div class="ff" id="droparea2"></div>
+    <div class="gg" id="droparea3"></div>
+    <div class="hh" id="droparea4"></div>
+    <div class="ii" id="droparea5"></div>
+    <div class="jj" id="droparea6"></div>
+    <div class="kk" id="droparea7"></div>
+    <div class="ll" id="droparea8"></div>
+    <div class="mm" id="droparea9"></div>
+
+    <script type="text/javascript" src="kaisei_picture_move4.js" charset="Shift-JIS"></script>
+    <img id = "btn_n"class="btn" src="game_start_bt.png" alt="" onclick="Gamestart()">
+
+    <img id="line" class="line_n" src="line.png" >
+    <img id="zero" class="zero_r" src="0.png" >
+    <img id="one" class="one_n" src="1.png" >
+    <img id="two" class="two_o" src="2.png" >
+    <img id="three" class="three_e" src="3.png" >
+    <a href="../home/home.html"><img id="win" class= "win_n" src="win.png" onclick="change_window()"></a>
+
+</body>
+
+</html>
