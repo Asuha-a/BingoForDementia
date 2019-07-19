@@ -9,28 +9,17 @@
 <body>
 
     <div class="images-area" id="dragarea">
-        <img src="../../static/images/history/img0.jpg" id="img0" alt="" onclick="imgClick('img0')">
-        <img src="../../static/images/history/img1.jpg" id="img1" alt="" onclick="imgClick('img1')">
-        <img src="../../static/images/history/img2.jpg" id="img2" alt="" onclick="imgClick('img2')">
-        <img src="../../static/images/history/img3.jpg" id="img3" alt="" onclick="imgClick('img3')">
-        <img src="../../static/images/history/img4.jpg" id="img4" alt="" onclick="imgClick('img4')">
-        <img src="../../static/images/history/img5.jpg" id="img5" alt="" onclick="imgClick('img5')">
-        <img src="../../static/images/history/img6.jpg" id="img6" alt="" onclick="imgClick('img6')">
-        <img src="../../static/images/history/img7.jpg" id="img7" alt="" onclick="imgClick('img7')">
-        <img src="../../static/images/history/img8.jpg" id="img8" alt="" onclick="imgClick('img8')">
-        <img src="../../static/images/history/img9.jpg" id="img9" alt="" onclick="imgClick('img9')">
-        <img src="../../static/images/history/img10.jpg" id="img10" alt="" onclick="imgClick('img10')">
+      {% with ''|center:category_pictures as range %}
+      {% for _ in range %}
+        <img src="../../static/images/{{category}}/img{{forloop.counter|add:"-1"}}.jpg" id="img{{forloop.counter|add:"-1"}}" alt="" onclick="imgClick('img{{forloop.counter|add:"-1"}}')">
+      {% endfor %}
+      {% endwith %}
     </div>
-    <div class="class-drop0" id="droparea0"></div>
-    <div class="class-drop1" id="droparea1"></div>
-    <div class="class-drop2" id="droparea2"></div>
-    <div class="class-drop3" id="droparea3"></div>
-    <div class="class-drop4" id="droparea4"></div>
-    <div class="class-drop5" id="droparea5"></div>
-    <div class="class-drop6" id="droparea6"></div>
-    <div class="class-drop7" id="droparea7"></div>
-    <div class="class-drop8" id="droparea8"></div>
-
+    {% with ''|center:9 as range %}
+    {% for _ in range %}
+      <div class="class-drop{{forloop.counter|add:"-1"}}" id="droparea{{forloop.counter|add:"-1"}}"></div>
+    {% endfor %}
+    {% endwith %}
     <script type="text/javascript" src="{% static 'js/player.js' %}" charset="Shift-JIS"></script>
     <img id = "btn_n"class="btn" src="../../static/images/UI/game_start.jpg" alt="" onclick="Gamestart()">
 
