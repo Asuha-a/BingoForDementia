@@ -4,7 +4,21 @@
 <html>
 <head>
     <link rel="stylesheet" href="{% static 'css/player.css' %}">
+    <style media="screen">
+    {% with ''|center:category_pictures as range %}
+    {% for _ in range %}
+    #img{{forloop.counter|add:"-1"}},
+    {% endfor %}
+    {% endwith %}
+    #img{{category_pictures}}
+    {
+        width: 580px;
+        height: 580px;
+        border: 1px solid gray;
+        text-align: center;
+    }
 
+    </style>
 </head>
 <body>
 

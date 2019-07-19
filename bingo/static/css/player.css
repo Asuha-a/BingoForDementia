@@ -111,21 +111,7 @@ body {
 }
 
 
-#img0,
-#img1,
-#img2,
-#img3,
-#img4,
-#img5,
-#img6,
-#img7,
-#img8,
-#img9 {
-    width: 580px;
-    height: 580px;
-    border: 1px solid gray;
-    text-align: center;
-}
+
 
 .line_n {
     position: absolute;
