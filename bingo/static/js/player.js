@@ -1,3 +1,5 @@
+/*
+
 //�h���b�O�v�f�ƃh���b�v�G���A�̎擾
 var objImg0 = document.getElementById("img0");
 var objImg1 = document.getElementById("img1");
@@ -611,3 +613,4 @@ function sleep(waitMsec) {
     // �w���~���b�Ԃ������[�v�������iCPU�͏��Ƀr�W�[���ԁj
     while (new Date() - startMsec < waitMsec);
 }
+*/
