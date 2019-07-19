@@ -1,6 +1,6 @@
-class-drop0﻿body {
+body {
     position: relative;
-    background-image:url("board.png");
+    background-image:url("../images/UI/board.jpg");
     background-size:auto;
     background-repeat:no-repeat;
 }
