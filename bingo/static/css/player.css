@@ -1,27 +1,27 @@
-﻿body {
+class-drop0﻿body {
     position: relative;
     background-image:url("board.png");
     background-size:auto;
     background-repeat:no-repeat;
 }
 
-.dd,
-.ee,
-.ff,
-.gg,
-.hh,
-.ii,
-.jj,
-.kk,
-.ll,
-.mm {
-    padding: 10px;
+.images-area,
+.class-drop0,
+.class-drop1,
+.class-drop2,
+.class-drop3,
+.class-drop4,
+.class-drop5,
+.class-drop6,
+.class-drop7,
+.class-drop8 {
+    paddaing: 10px;
     border: 1px solid gray;
     width: 580px;
 }
 
 
-.dd {
+.images-area {
     position: absolute;
     top: 400px;
     left: 90px;
@@ -32,15 +32,15 @@
     margin-right: 250px;
 }
 
-.ee,
-.ff,
-.gg,
-.hh,
-.ii,
-.jj,
-.kk,
-.ll,
-.mm {
+.class-drop0,
+.class-drop1,
+.class-drop2,
+.class-drop3,
+.class-drop4,
+.class-drop5,
+.class-drop6,
+.class-drop7,
+.class-drop8 {
     margin-bottom: 5px;
     height: 580px;
     background-color: rgba(255,255,255,0);
@@ -48,55 +48,55 @@
 
 
 
-.ee {
+.class-drop0 {
     position: absolute;
     top: 95px;
     left: 730px;
 }
 
-.ff {
+.class-drop1 {
     position: absolute;
     top: 95px;
     left: 1360px;
 }
 
-.gg {
+.class-drop2 {
     position: absolute;
     top: 95px;
     left: 2000px;
 }
 
-.hh {
+.class-drop3 {
     position: absolute;
     top: 715px;
     left: 730px;
 }
 
-.ii {
+.class-drop4 {
     position: absolute;
     top: 715px;
     left: 1360px;
 }
 
-.jj {
+.class-drop5 {
     position: absolute;
     top: 715px;
     left: 2000px;
 }
 
-.kk {
+.class-drop6 {
     position: absolute;
     top: 1350px;
     left: 730px;
 }
 
-.ll {
+.class-drop7 {
     position: absolute;
     top: 1350px;
     left: 1360px;
 }
 
-.mm {
+.class-drop8 {
     position: absolute;
     top: 1350px;
     left: 2000px;
@@ -111,7 +111,7 @@
 }
 
 
-
+#img0,
 #img1,
 #img2,
 #img3,
@@ -120,8 +120,7 @@
 #img6,
 #img7,
 #img8,
-#img9,
-#img10 {
+#img9 {
     width: 580px;
     height: 580px;
     border: 1px solid gray;

@@ -1,23 +1,23 @@
-//ƒhƒ‰ƒbƒO—v‘f‚ÆƒhƒƒbƒvƒGƒŠƒA‚Ìæ“¾
-var objImg0 = document.getElementById("img1");
-var objImg1 = document.getElementById("img2");
-var objImg2 = document.getElementById("img3");
-var objImg3 = document.getElementById("img4");
-var objImg4 = document.getElementById("img5");
-var objImg5 = document.getElementById("img6");
-var objImg6 = document.getElementById("img7");
-var objImg7 = document.getElementById("img8");
-var objImg8 = document.getElementById("img9");
-var objImg9 = document.getElementById("img10");
-var objDropArea0 = document.getElementById("droparea");
-var objDropArea1 = document.getElementById("droparea2");
-var objDropArea2 = document.getElementById("droparea3");
-var objDropArea3 = document.getElementById("droparea4");
-var objDropArea4 = document.getElementById("droparea5");
-var objDropArea5 = document.getElementById("droparea6");
-var objDropArea6 = document.getElementById("droparea7");
-var objDropArea7 = document.getElementById("droparea8");
-var objDropArea8 = document.getElementById("droparea9");
+//ï¿½hï¿½ï¿½ï¿½bï¿½Oï¿½vï¿½fï¿½Æƒhï¿½ï¿½ï¿½bï¿½vï¿½Gï¿½ï¿½ï¿½Aï¿½Ìæ“¾
+var objImg0 = document.getElementById("img0");
+var objImg1 = document.getElementById("img1");
+var objImg2 = document.getElementById("img2");
+var objImg3 = document.getElementById("img3");
+var objImg4 = document.getElementById("img4");
+var objImg5 = document.getElementById("img5");
+var objImg6 = document.getElementById("img6");
+var objImg7 = document.getElementById("img7");
+var objImg8 = document.getElementById("img8");
+var objImg9 = document.getElementById("img9");
+var objDropArea0 = document.getElementById("droparea0");
+var objDropArea1 = document.getElementById("droparea1");
+var objDropArea2 = document.getElementById("droparea2");
+var objDropArea3 = document.getElementById("droparea3");
+var objDropArea4 = document.getElementById("droparea4");
+var objDropArea5 = document.getElementById("droparea5");
+var objDropArea6 = document.getElementById("droparea6");
+var objDropArea7 = document.getElementById("droparea7");
+var objDropArea8 = document.getElementById("droparea8");
 var objImgArea = document.getElementById("dragarea");
 var judge = [true, true, true, true, true, true, true, true, true] //judge drop ok or no
 var judge_e = 0
@@ -25,7 +25,7 @@ var array = [0, 0, 0, 0, 0, 0, 0, 0, 0] //arrange id in objDropArea
 var isdraking = [true, true, true, true, true, true, true, true, true] //judge drag success or failture
 var alt_array = [] //after game start, not to chage array[]
 var gamestart = false //game start or not
-var ranaway = 0 //temporally array'deserve reserve 
+var ranaway = 0 //temporally array'deserve reserve
 var ch = 0; //temporally i'deserve reserve
 
 
@@ -66,7 +66,7 @@ function Gamestart() {
 
 
 
-//ƒhƒ‰ƒbƒOŠJn‚Ìˆ—
+//ï¿½hï¿½ï¿½ï¿½bï¿½Oï¿½Jï¿½nï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½
 objImg0.addEventListener("dragstart", function (evt) {
     for (let i = 0; i < array.length; i++) {
         if (!isdraking[i]) {
@@ -86,7 +86,7 @@ objImg0.addEventListener("dragstart", function (evt) {
             console.log(judge[i])
         }
     }
-    //ƒhƒ‰ƒbƒO—v‘f‚Ìid‚ğdataTransfer‚ÉƒZƒbƒg
+    //ï¿½hï¿½ï¿½ï¿½bï¿½Oï¿½vï¿½fï¿½ï¿½idï¿½ï¿½dataTransferï¿½ÉƒZï¿½bï¿½g
     evt.dataTransfer.setData("text/plain", evt.target.id);
     evt.stopPropagation();
 }, false);
@@ -110,7 +110,7 @@ objImg1.addEventListener("dragstart", function (evt) {
             console.log(judge[i])
         }
     }
-    //ƒhƒ‰ƒbƒO—v‘f‚Ìid‚ğdataTransfer‚ÉƒZƒbƒg
+    //ï¿½hï¿½ï¿½ï¿½bï¿½Oï¿½vï¿½fï¿½ï¿½idï¿½ï¿½dataTransferï¿½ÉƒZï¿½bï¿½g
     evt.dataTransfer.setData("text/plain", evt.target.id);
     evt.stopPropagation();
 }, false);
@@ -130,7 +130,7 @@ objImg2.addEventListener("dragstart", function (evt) {
             isdraking[i] = false
         }
     }
-    //ƒhƒ‰ƒbƒO—v‘f‚Ìid‚ğdataTransfer‚ÉƒZƒbƒg
+    //ï¿½hï¿½ï¿½ï¿½bï¿½Oï¿½vï¿½fï¿½ï¿½idï¿½ï¿½dataTransferï¿½ÉƒZï¿½bï¿½g
     evt.dataTransfer.setData("text/plain", evt.target.id);
     evt.stopPropagation();
 }, false);
@@ -150,7 +150,7 @@ objImg3.addEventListener("dragstart", function (evt) {
             isdraking[i] = false
         }
     }
-    //ƒhƒ‰ƒbƒO—v‘f‚Ìid‚ğdataTransfer‚ÉƒZƒbƒg
+    //ï¿½hï¿½ï¿½ï¿½bï¿½Oï¿½vï¿½fï¿½ï¿½idï¿½ï¿½dataTransferï¿½ÉƒZï¿½bï¿½g
     evt.dataTransfer.setData("text/plain", evt.target.id);
     evt.stopPropagation();
 }, false);
@@ -170,7 +170,7 @@ objImg4.addEventListener("dragstart", function (evt) {
             isdraking[i] = false
         }
     }
-    //ƒhƒ‰ƒbƒO—v‘f‚Ìid‚ğdataTransfer‚ÉƒZƒbƒg
+    //ï¿½hï¿½ï¿½ï¿½bï¿½Oï¿½vï¿½fï¿½ï¿½idï¿½ï¿½dataTransferï¿½ÉƒZï¿½bï¿½g
     evt.dataTransfer.setData("text/plain", evt.target.id);
     evt.stopPropagation();
 }, false);
@@ -190,7 +190,7 @@ objImg5.addEventListener("dragstart", function (evt) {
             isdraking[i] = false
         }
     }
-    //ƒhƒ‰ƒbƒO—v‘f‚Ìid‚ğdataTransfer‚ÉƒZƒbƒg
+    //ï¿½hï¿½ï¿½ï¿½bï¿½Oï¿½vï¿½fï¿½ï¿½idï¿½ï¿½dataTransferï¿½ÉƒZï¿½bï¿½g
     evt.dataTransfer.setData("text/plain", evt.target.id);
     evt.stopPropagation();
 }, false);
@@ -210,7 +210,7 @@ objImg6.addEventListener("dragstart", function (evt) {
             isdraking[i] = false
         }
     }
-    //ƒhƒ‰ƒbƒO—v‘f‚Ìid‚ğdataTransfer‚ÉƒZƒbƒg
+    //ï¿½hï¿½ï¿½ï¿½bï¿½Oï¿½vï¿½fï¿½ï¿½idï¿½ï¿½dataTransferï¿½ÉƒZï¿½bï¿½g
     evt.dataTransfer.setData("text/plain", evt.target.id);
     evt.stopPropagation();
 }, false);
@@ -230,7 +230,7 @@ objImg7.addEventListener("dragstart", function (evt) {
             isdraking[i] = false
         }
     }
-    //ƒhƒ‰ƒbƒO—v‘f‚Ìid‚ğdataTransfer‚ÉƒZƒbƒg
+    //ï¿½hï¿½ï¿½ï¿½bï¿½Oï¿½vï¿½fï¿½ï¿½idï¿½ï¿½dataTransferï¿½ÉƒZï¿½bï¿½g
     evt.dataTransfer.setData("text/plain", evt.target.id);
     evt.stopPropagation();
 }, false);
@@ -250,7 +250,7 @@ objImg8.addEventListener("dragstart", function (evt) {
             isdraking[i] = false
         }
     }
-    //ƒhƒ‰ƒbƒO—v‘f‚Ìid‚ğdataTransfer‚ÉƒZƒbƒg
+    //ï¿½hï¿½ï¿½ï¿½bï¿½Oï¿½vï¿½fï¿½ï¿½idï¿½ï¿½dataTransferï¿½ÉƒZï¿½bï¿½g
     evt.dataTransfer.setData("text/plain", evt.target.id);
     evt.stopPropagation();
 }, false);
@@ -270,24 +270,24 @@ objImg9.addEventListener("dragstart", function (evt) {
             isdraking[i] = false
         }
     }
-    //ƒhƒ‰ƒbƒO—v‘f‚Ìid‚ğdataTransfer‚ÉƒZƒbƒg
+    //ï¿½hï¿½ï¿½ï¿½bï¿½Oï¿½vï¿½fï¿½ï¿½idï¿½ï¿½dataTransferï¿½ÉƒZï¿½bï¿½g
     evt.dataTransfer.setData("text/plain", evt.target.id);
     evt.stopPropagation();
 }, false);
 
-//ƒhƒƒbƒv‚³‚ê‚½‚Ìˆ—
+//ï¿½hï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½
 objDropArea0.addEventListener("drop", function (evt) {
     if (judge[0]) {
         if (!isdraking[ch]) {
             //if (!gamestart) judge[0] = true
             isdraking[ch] = true
         }
-        //id–¼‚ğdataTransfer‚©‚çæ‚èo‚·
+        //idï¿½ï¿½ï¿½ï¿½dataTransferï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½
         var id = evt.dataTransfer.getData("text/plain");
         array[0] = id
         var obj3 = document.getElementById(id);
         if (obj3) {
-            objDropArea0.appendChild(obj3);  //—v‘f‚ğˆÚ“®‚·‚é
+            objDropArea0.appendChild(obj3);  //ï¿½vï¿½fï¿½ï¿½ï¿½Ú“ï¿½ï¿½ï¿½ï¿½ï¿½
         }
         evt.preventDefault();
         judge[0] = false
@@ -303,12 +303,12 @@ objDropArea1.addEventListener("drop", function (evt) {
             //if (!gamestart) judge[1] = true
             isdraking[ch] = true
         }
-        //id–¼‚ğdataTransfer‚©‚çæ‚èo‚·
+        //idï¿½ï¿½ï¿½ï¿½dataTransferï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½
         var id = evt.dataTransfer.getData("text/plain");
         array[1] = id
         var obj3 = document.getElementById(id);
         if (obj3) {
-            objDropArea1.appendChild(obj3);  //—v‘f‚ğˆÚ“®‚·‚é
+            objDropArea1.appendChild(obj3);  //ï¿½vï¿½fï¿½ï¿½ï¿½Ú“ï¿½ï¿½ï¿½ï¿½ï¿½
         }
         judge[1] = false
     } else { }
@@ -318,18 +318,18 @@ objDropArea1.addEventListener("drop", function (evt) {
 }, false);
 
 objDropArea2.addEventListener("drop", function (evt) {
-    
+
     if (judge[2]) {
         if (!isdraking[ch]) {
             //if (!gamestart) judge[2] = true
             isdraking[ch] = true
         }
-        //id–¼‚ğdataTransfer‚©‚çæ‚èo‚·
+        //idï¿½ï¿½ï¿½ï¿½dataTransferï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½
         var id = evt.dataTransfer.getData("text/plain");
         array[2] = id
         var obj3 = document.getElementById(id);
         if (obj3) {
-            objDropArea2.appendChild(obj3);  //—v‘f‚ğˆÚ“®‚·‚é
+            objDropArea2.appendChild(obj3);  //ï¿½vï¿½fï¿½ï¿½ï¿½Ú“ï¿½ï¿½ï¿½ï¿½ï¿½
         }
         judge[2] = false
     } else { }
@@ -337,18 +337,18 @@ objDropArea2.addEventListener("drop", function (evt) {
 }, false);
 
 objDropArea3.addEventListener("drop", function (evt) {
-    
+
     if (judge[3]) {
         if (!isdraking[ch]) {
             //if (!gamestart) judge[3] = true
             isdraking[ch] = true
         }
-        //id–¼‚ğdataTransfer‚©‚çæ‚èo‚·
+        //idï¿½ï¿½ï¿½ï¿½dataTransferï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½
         var id = evt.dataTransfer.getData("text/plain");
         array[3] = id
         var obj3 = document.getElementById(id);
         if (obj3) {
-            objDropArea3.appendChild(obj3);  //—v‘f‚ğˆÚ“®‚·‚é
+            objDropArea3.appendChild(obj3);  //ï¿½vï¿½fï¿½ï¿½ï¿½Ú“ï¿½ï¿½ï¿½ï¿½ï¿½
         }
         judge[3] = false
     } else { }
@@ -356,18 +356,18 @@ objDropArea3.addEventListener("drop", function (evt) {
 }, false);
 
 objDropArea4.addEventListener("drop", function (evt) {
-    
+
     if (judge[4]) {
         if (!isdraking[ch]) {
             //if (!gamestart) judge[4] = true
             isdraking[ch] = true
         }
-        //id–¼‚ğdataTransfer‚©‚çæ‚èo‚·
+        //idï¿½ï¿½ï¿½ï¿½dataTransferï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½
         var id = evt.dataTransfer.getData("text/plain");
         array[4] = id
         var obj3 = document.getElementById(id);
         if (obj3) {
-            objDropArea4.appendChild(obj3);  //—v‘f‚ğˆÚ“®‚·‚é
+            objDropArea4.appendChild(obj3);  //ï¿½vï¿½fï¿½ï¿½ï¿½Ú“ï¿½ï¿½ï¿½ï¿½ï¿½
         }
         judge[4] = false
     } else { }
@@ -375,18 +375,18 @@ objDropArea4.addEventListener("drop", function (evt) {
 }, false);
 
 objDropArea5.addEventListener("drop", function (evt) {
-    
+
     if (judge[5]) {
         if (!isdraking[ch]) {
             //if (!gamestart) judge[5] = true
             isdraking[ch] = true
         }
-        //id–¼‚ğdataTransfer‚©‚çæ‚èo‚·
+        //idï¿½ï¿½ï¿½ï¿½dataTransferï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½
         var id = evt.dataTransfer.getData("text/plain");
         array[5] = id
         var obj3 = document.getElementById(id);
         if (obj3) {
-            objDropArea5.appendChild(obj3);  //—v‘f‚ğˆÚ“®‚·‚é
+            objDropArea5.appendChild(obj3);  //ï¿½vï¿½fï¿½ï¿½ï¿½Ú“ï¿½ï¿½ï¿½ï¿½ï¿½
         }
         judge[5] = false
     } else { }
@@ -394,18 +394,18 @@ objDropArea5.addEventListener("drop", function (evt) {
 }, false);
 
 objDropArea6.addEventListener("drop", function (evt) {
-    
+
     if (judge[6]) {
         if (!isdraking[ch]) {
             //if (!gamestart) judge[6] = true
             isdraking[ch] = true
         }
-        //id–¼‚ğdataTransfer‚©‚çæ‚èo‚·
+        //idï¿½ï¿½ï¿½ï¿½dataTransferï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½
         var id = evt.dataTransfer.getData("text/plain");
         array[6] = id
         var obj3 = document.getElementById(id);
         if (obj3) {
-            objDropArea6.appendChild(obj3);  //—v‘f‚ğˆÚ“®‚·‚é
+            objDropArea6.appendChild(obj3);  //ï¿½vï¿½fï¿½ï¿½ï¿½Ú“ï¿½ï¿½ï¿½ï¿½ï¿½
         }
         judge[6] = false
     } else { }
@@ -413,18 +413,18 @@ objDropArea6.addEventListener("drop", function (evt) {
 }, false);
 
 objDropArea7.addEventListener("drop", function (evt) {
-    
+
     if (judge[7]) {
         if (!isdraking[ch]) {
             //if (!gamestart) judge[7] = true
             isdraking[ch] = true
         }
-        //id–¼‚ğdataTransfer‚©‚çæ‚èo‚·
+        //idï¿½ï¿½ï¿½ï¿½dataTransferï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½
         var id = evt.dataTransfer.getData("text/plain");
         array[7] = id
         var obj3 = document.getElementById(id);
         if (obj3) {
-            objDropArea7.appendChild(obj3);  //—v‘f‚ğˆÚ“®‚·‚é
+            objDropArea7.appendChild(obj3);  //ï¿½vï¿½fï¿½ï¿½ï¿½Ú“ï¿½ï¿½ï¿½ï¿½ï¿½
         }
         judge[7] = false
     } else { }
@@ -432,18 +432,18 @@ objDropArea7.addEventListener("drop", function (evt) {
 }, false);
 
 objDropArea8.addEventListener("drop", function (evt) {
-    
+
     if (judge[8]) {
         if (!isdraking[ch]) {
             //if (!gamestart) judge[8] = true
             isdraking[ch] = true
         }
-        //id–¼‚ğdataTransfer‚©‚çæ‚èo‚·
+        //idï¿½ï¿½ï¿½ï¿½dataTransferï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½
         var id = evt.dataTransfer.getData("text/plain");
         array[8] = id
         var obj3 = document.getElementById(id);
         if (obj3) {
-            objDropArea8.appendChild(obj3);  //—v‘f‚ğˆÚ“®‚·‚é
+            objDropArea8.appendChild(obj3);  //ï¿½vï¿½fï¿½ï¿½ï¿½Ú“ï¿½ï¿½ï¿½ï¿½ï¿½
         }
         judge[8] = false
     } else { }
@@ -466,7 +466,7 @@ objImgArea.addEventListener("drop", function (evt) {
 }, false);
 
 
-//‚Q‚Â‚ÌƒCƒxƒ“ƒg‚ÅƒfƒtƒHƒ‹ƒg“®ì‚ğ—}§‚·‚é
+//ï¿½Qï¿½Â‚ÌƒCï¿½xï¿½ï¿½ï¿½gï¿½Åƒfï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½}ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 objDropArea0.addEventListener("dragenter", function (evt) {
     evt.preventDefault();
 }, false);
@@ -608,7 +608,6 @@ function change_window() {
 function sleep(waitMsec) {
     var startMsec = new Date();
 
-    // w’èƒ~ƒŠ•bŠÔ‚¾‚¯ƒ‹[ƒv‚³‚¹‚éiCPU‚Íí‚ÉƒrƒW[ó‘Ôj
+    // ï¿½wï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½bï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½iCPUï¿½Íï¿½ï¿½Éƒrï¿½Wï¿½[ï¿½ï¿½ï¿½Ôj
     while (new Date() - startMsec < waitMsec);
 }
-
