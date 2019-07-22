@@ -4,6 +4,10 @@
       background-size:100% 118%;
       background-repeat: no-repeat;
     }
+    a{outline: none;}
+    button:focus{
+      outline: 0;
+    }
     .line1{
       position:fixed;
       top:130px;
@@ -79,6 +83,7 @@
           img#bingo{
             width: 260px;
             height: 570px;
+            opacity: 0;
      }
 
   }
@@ -88,6 +93,10 @@
       background-image: url("../images/UI/ca_background.png");
       background-size:100% 105%;
       background-repeat: no-repeat;
+    }
+    a{outline: none;}
+    button:focus{
+      outline: 0;
     }
     .line1{
       position:fixed;
@@ -155,6 +164,7 @@
           img#bingo{
             width: 240px;
             height: 540px;
+            opacity: 0;
      }
 
   }
@@ -165,7 +175,10 @@
       background-size:100% 110%;
       background-repeat: no-repeat;
     }
-
+    a{outline: none;}
+    button:focus{
+      outline: 0;
+    }
     .line1{
       position:fixed;
       top:100px;
@@ -234,6 +247,7 @@
       img#bingo{
         width: 190px;
         height: 390px;
+        opacity: 0;
       }
 
   }
@@ -244,7 +258,10 @@
       background-size:100% 110%;
       background-repeat: no-repeat;
     }
-
+    a{outline: none;}
+    button:focus{
+      outline: 0;
+    }
     .line1{
       position:fixed;
       z-index:10;
@@ -311,6 +328,7 @@
       img#bingo{
         width: 160px;
         height: 320px;
+        opacity: 0;
       }
 
   }
@@ -320,6 +338,10 @@
       background-image: url("../images/UI/ca_background.png");
       background-size:100% 108%;
       background-repeat: no-repeat;
+    }
+    a{outline: none;}
+    button:focus{
+      outline: 0;
     }
     .line1{
       position:fixed;
@@ -387,6 +409,7 @@
       img#bingo{
         width: 120px;
         height: 220px;
+        opacity: 0;
       }
 
   }
@@ -396,7 +419,10 @@
         background-size:100% 108%;
         background-repeat: no-repeat;
       }
-
+      a{outline: none;}
+      button:focus{
+        outline: 0;
+      }
       .toys{
         width: 69px;
         height: 69px;
@@ -451,6 +477,7 @@
       img#bingo{
         width: 106px;
         height: 190px;
+        opacity: 0;
       }
 
   }

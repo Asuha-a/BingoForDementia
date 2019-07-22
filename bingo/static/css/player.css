@@ -1,7 +1,7 @@
 body {
     position: relative;
     background-image:url("../images/UI/board.jpg");
-    background-size:auto;
+    background-size:100%;
     background-repeat:no-repeat;
 }
 
@@ -15,21 +15,27 @@ body {
 .class-drop6,
 .class-drop7,
 .class-drop8 {
-    paddaing: 10px;
-    border: 1px solid gray;
-    width: 580px;
+    padding: 1px;
+    /*border: 1px solid gray;*/
+    width: 22%;
 }
+
 
 
 .images-area {
     position: absolute;
-    top: 400px;
-    left: 90px;
+    top: 17vw;
+    left: 2%;
     float: left;
     overflow: auto;
-    height: 1520px;
+    -ms-overflow-style:none;
+    height: 50vw;
     background-color: rgba(255,255,255,0);
     margin-right: 250px;
+}
+
+.images-area::-webkit-scrollbar{
+    display:none;
 }
 
 .class-drop0,
@@ -41,8 +47,8 @@ body {
 .class-drop6,
 .class-drop7,
 .class-drop8 {
+    height:20.7vw;
     margin-bottom: 5px;
-    height: 580px;
     background-color: rgba(255,255,255,0);
 }
 
@@ -50,64 +56,65 @@ body {
 
 .class-drop0 {
     position: absolute;
-    top: 95px;
-    left: 730px;
+    top: 2.7vw;
+    left: 26.8%;
 }
 
 .class-drop1 {
     position: absolute;
-    top: 95px;
-    left: 1360px;
+    top: 2.7vw;
+    left: 50.2%;
 }
 
 .class-drop2 {
     position: absolute;
-    top: 95px;
-    left: 2000px;
+    top: 2.7vw;
+    left: 74%;
 }
 
 .class-drop3 {
     position: absolute;
-    top: 715px;
-    left: 730px;
+    top: 24.85vw;
+    left: 26.8%;
 }
 
 .class-drop4 {
     position: absolute;
-    top: 715px;
-    left: 1360px;
+    top: 24.85vw;
+    left: 50.2%;
 }
 
 .class-drop5 {
     position: absolute;
-    top: 715px;
-    left: 2000px;
+    top: 24.85vw;
+    left: 74%;
 }
 
 .class-drop6 {
     position: absolute;
-    top: 1350px;
-    left: 730px;
+    top: 47.4vw;
+    left: 26.8%;
 }
 
 .class-drop7 {
     position: absolute;
-    top: 1350px;
-    left: 1360px;
+    top: 47.4vw;
+    left: 50.2%;
 }
 
 .class-drop8 {
     position: absolute;
-    top: 1350px;
-    left: 2000px;
+    top: 47.4vw;
+    left: 74%;
 }
 
 
 .btn {
     position: absolute;
-    top: 95px;
-    left: 100px;
-    height:320px;
+    top: 4vw;
+    left: 2%;
+    width:24%;
+    height:auto;
 }
 
 
@@ -115,42 +122,57 @@ body {
 
 .line_n {
     position: absolute;
-    top: 200px;
-    left: 60px;
-    height: 650px;
+    top: 13%;
+    left: 1%;
+    width:24%;
+    height:auto;
 }
 
 .zero_r {
     position: absolute;
-    top: 650px;
-    left: 60px;
-    height: 650px;
+    top: 27vw;
+    left: 1%;
+    width:24%;
+    height: auto;
 }
 
 .one_n {
     position: absolute;
-    top: 650px;
-    left: 60px;
-    height: 650px;
+    top: 27vw;
+    left: 1%;
+    width:24%;
+    height: auto;
 }
 
 .two_o {
     position: absolute;
-    top: 650px;
-    left: 60px;
-    height: 650px;
+    top: 27vw;
+    left: 1%;
+    width:24%;
+    height: auto;
 }
 
 .three_e {
     position: absolute;
-    top: 650px;
-    left: 60px;
-    height: 650px;
+    top: 27vw;
+    left: 1%;
+    width:24%;
+    height: auto;
 }
 
 .win_n {
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 2000px;
+    width:100%;
+    height:auto;
 }
+
+div.LOGO{
+    text-align: center;
+  }
+  img#bingo{
+    width: 240px;
+    height: 540px;
+    opacity:0;
+  }
