@@ -4,6 +4,10 @@
     background-size:100% 118%;
     background-repeat: no-repeat;
   }
+  a{outline: none;}
+  button:focus{
+    outline: 0;
+  }
   .player{
     position: absolute;
     top: 250px;
@@ -46,6 +50,10 @@
     background-size:100% 105%;
     background-repeat: no-repeat;
   }
+  a{outline: none;}
+  button:focus{
+    outline: 0;
+  }
   .player{
     position: absolute;
     top: 210px;
@@ -85,6 +93,10 @@
     background-size:100% 110%;
     background-repeat: no-repeat;
   }
+  a{outline: none;}
+  button:focus{
+    outline: 0;
+  }
   .player{
     position: absolute;
     top: 140px;
@@ -120,6 +132,10 @@
     background-image: url("../images/UI/background.png");
     background-size:100% 110%;
     background-repeat: no-repeat;
+  }
+  a{outline: none;}
+  button:focus{
+    outline: 0;
   }
   .player{
     position: absolute;
@@ -160,6 +176,10 @@
     background-size:100% 108%;
     background-repeat: no-repeat;
   }
+  a{outline: none;}
+  button:focus{
+    outline: 0;
+  }
   .player{
     position: absolute;
     top: 81px;
@@ -197,6 +217,10 @@
       background-image: url("../images/UI/background.png");
       background-size:100% 108%;
       background-repeat: no-repeat;
+    }
+    a{outline: none;}
+    button:focus{
+      outline: 0;
     }
     .player{
       position: absolute;
