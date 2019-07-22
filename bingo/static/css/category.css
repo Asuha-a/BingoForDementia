@@ -79,6 +79,7 @@
           img#bingo{
             width: 260px;
             height: 570px;
+            opacity: 0;
      }
 
   }
@@ -155,6 +156,7 @@
           img#bingo{
             width: 240px;
             height: 540px;
+            opacity: 0;
      }
 
   }
@@ -234,6 +236,7 @@
       img#bingo{
         width: 190px;
         height: 390px;
+        opacity: 0;
       }
 
   }
@@ -311,6 +314,7 @@
       img#bingo{
         width: 160px;
         height: 320px;
+        opacity: 0;
       }
 
   }
@@ -387,6 +391,7 @@
       img#bingo{
         width: 120px;
         height: 220px;
+        opacity: 0;
       }
 
   }
@@ -451,6 +456,7 @@
       img#bingo{
         width: 106px;
         height: 190px;
+        opacity: 0;
       }
 
   }
