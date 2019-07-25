@@ -1,1 +1,1 @@
-web: gunicorn mysite.wsgi --preload --log-file -
+web: gunicorn --chdir mysite mysite:application --log-file -
