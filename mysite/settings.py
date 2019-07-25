@@ -125,3 +125,6 @@ except ImportError:
 if not DEBUG:
     import django_heroku
     django_heroku.settings(locals())
+
+# Honor the 'X-Forwarded-Proto' header for request.is_secure()
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
