@@ -1,1 +1,1 @@
-web: gunicorn <your-project-name>.wsgi --log-file -
+web: gunicorn bingofordementia2019.wsgi --log-file -
