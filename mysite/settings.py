@@ -17,6 +17,9 @@ try:
 except ImportError:
     pass
 
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = False
+
 if not DEBUG:
     import django_heroku
     django_heroku.settings(locals())
@@ -31,8 +34,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '!)1_s3p%e(jz0+2wgtug((r9qt+vl9=!*rfx4*$z-z8=e198=y'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+
 
 
 ALLOWED_HOSTS = ['*', ]
