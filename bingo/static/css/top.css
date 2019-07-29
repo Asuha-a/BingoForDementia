@@ -62,7 +62,7 @@
   .player{
     width: 210px;
     height: 210px;
-    background: url("../images/UI/managerbutton.png") no-repeat;
+    background: url("../images/UI/playerbutton.png") no-repeat;
     background-size:100% auto;
     border:0px solid;
   }
